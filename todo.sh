@@ -3,7 +3,7 @@
 case "$1" in
   add)
     echo "$2" >> tasks.txt
-    echo "Task adăugat!"
+    echo "Task salvat cu succes!"
     ;;
   list)
     nl -w2 -s'. ' tasks.txt
