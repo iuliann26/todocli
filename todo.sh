@@ -10,7 +10,7 @@ case "$1" in
     ;;
   remove)
     sed -i "${2}d" tasks.txt
-    echo "Task șters!"
+    echo "Task șters de tot!TEST!!"
     ;;
   *)
     echo "Comenzi: add \"task\", list, remove [nr]"
